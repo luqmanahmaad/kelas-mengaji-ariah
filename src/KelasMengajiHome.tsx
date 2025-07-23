@@ -83,13 +83,14 @@ export default function KelasMengajiHome(): JSX.Element {
       <section className="w-full flex justify-center py-12 sm:py-20 px-2 bg-transparent">
         <div className="w-full max-w-5xl flex flex-col md:flex-row items-center gap-8">
           <div className="flex-1 flex justify-center md:justify-start">
-            <img src="/logo_ariah.png" alt="Kelas Mengaji Ariah" className="h-28 w-auto mb-6 md:mb-0" />
+            <img src="/learn_1.png" alt="Kelas Mengaji Ariah" 
+              className="w-full max-w-md md:max-w-lg lg:max-w-xl h-auto mb-6 md:mb-0" />
           </div>
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-lime-600">Kelas Mengaji Al-Quran Dewasa & Kanak-kanak</h1>
-            <p className="text-base sm:text-lg mb-6 text-gray-700">
-              Kelas mengaji secara fizikal & online bersama guru bertauliah. Sesuai untuk semua peringkat umur.
-            </p>
+            <h1 className="text-3xl sm:text-5xl font-bold mb-4 text-lime-600">Kelas Mengaji Al-Quran Dewasa & Kanak-kanak</h1>
+            <p className="text-base sm:text-xl mb-6 text-gray-700 font-medium">
+              Kelas mengaji Al-Quran secara fizikal dan online bersama guru bertauliah, sesuai untuk dewasa dan kanak-kanak dari semua peringkat umur. Pembelajaran mudah difahami, santai dan berkesan.
+            </p>                
             <a
               href="#daftar"
               className="inline-block border border-lime-500 text-lime-600 px-8 py-3 rounded-lg font-bold text-lg hover:bg-lime-50 transition"
